@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700&display=swap&subset=latin-ext"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="dist/main.min.css">
+</head>
+
+<body>
+    <header class='header'>
+        <div class="container">
+            <div class="header--content">
+                <img class="header--logo" src="assets/apple.svg" alt="apple">
+                <h1>Nutritions</h1>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="app">
+                <div class="app-description">
+                    <p>A simplified nutrient table is provided below</p>
+                    <p>To more information contact us:</p>
+                    <div class="app--contact-method">
+                        <i class="fas fa-phone"></i> 123456789
+                    </div>
+                    <div class="app--contact-method">
+                        <i class="far fa-envelope"></i>
+                        <a href='mailto:mail@mail.com'>mail@mail.com</a>
+                    </div>
+                </div>
+
+                <h2>Nutrient array</h2>
+                <div class="app--values">
+
+                </div>
+                <div class="app-images">
+                    <picture>
+                        <source srcset="assets/nutrition-800.jpg" media="(min-width:800px)"/>
+            
+                        <source srcset="assets/nutrition-1000.jpg" media="(min-width:500px)"/>
+
+                        <img src="assets/nutrition-500.jpg" alt="nutrition"/>
+                    </picture>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
